@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>grah</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="kasza"> 
+        <button id="btn"  class = "btn" type="button" onclick="play()"><span>hiiii:3</span></button>
+        <audio id="audio" src="audio/Bumble bee - speed up.mp3"></audio>
+    </div>
+    <script>
+        const button = document.querySelector('#btn');
+        button.addEventListener('click', () => {button.style.backgroundImage = "url(images/cm.jpg)";
+    button.textContent = '>:3'; button.style.width = "500px"; button.style.height = "500px"; button.style.borderRadius = "100%"} );
+    function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+        
+    </script>
+  </body>
+</html>
