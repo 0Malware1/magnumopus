@@ -1,0 +1,11 @@
+body{
+    background-image: url(images/enchanted-forest.jpg);
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    padding-top: 300px;
+}
+.skyrimpic {
+    opacity: 0%;
+    transition-duration: 4s;
+}

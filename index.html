@@ -9,10 +9,22 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <div class="podzielnik">
     <div class="kasza"> 
+       
+        <form action="portal.html" >
+            <input type="submit" id="btn2"  class = "btn2" value="portal" />
+        </form>
+        
         <button id="btn"  class = "btn" type="button" onclick="play()"><span>hiiii:3</span></button>
+        
+        <form action="zaklecie.html" >
+            <input type="submit" id="btn3"  class = "btn3" value="zaklęcie" />
+        </form>
         <audio id="audio" src="audio/Bumble bee - speed up.mp3"></audio>
+        
     </div>
+</div>
     <script>
         const button = document.querySelector('#btn');
         button.addEventListener('click', () => {button.style.backgroundImage = "url(images/cm.jpg)";
@@ -20,8 +32,7 @@
     function play() {
         var audio = document.getElementById("audio");
         audio.play();
-      }
-        
+    }
     </script>
   </body>
 </html>

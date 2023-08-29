@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>grah</title>
+    <link rel="stylesheet" href="zaklecie.css" />
+  </head>
+  <body>
+  <div class="porucznik">
+    <button class="btn" id="btn" type="button" onclick="zaklecie(), play()">wywołaj</button>
+    <audio id="audio" src="audio/Nightcore - Bad boy.mp3"></audio>
+
+  </div>
+  <script>
+    const button = document.getElementById("btn");
+    function zaklecie(){
+        button.style.backgroundImage = "url(images/astarion.jpg)"; button.style.width = '500px';button.style.height = '500px'; button.style.backgroundPosition = 'center'; button.style.backgroundSize = "cover"; button.textContent = "";
+        
+    }
+    function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+    }
+  </script>
+  </body>
+</html>

@@ -1,15 +1,20 @@
-body {
+body{
+    background-color: yellow;
+}
+.podzielnik {
     display: flex;
 justify-content: center;
 align-items: center;
 padding: 200px;
-background-color: yellow;
+
+
 }
 .kasza {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: auto;
+    gap: 20px;
 }
 .btn {
     border:none;
@@ -19,9 +24,39 @@ background-color: yellow;
     transition-duration: 1s;
     border-radius:5px;
 }
+.btn2 {
+    border:none;
+    background-color: greenyellow;
+    width: 100px;
+    height:50px;
+    transition-duration: 1s;
+    border-radius:5px;
+}
+.btn3{
+    border:none;
+    background-color: violet;
+    width: 100px;
+    height:50px;
+    transition-duration: 1s;
+    border-radius:5px;
+}
 .btn:hover{
     box-shadow: 5px 10px 10px purple;
     background-color: deeppink;
+    border-radius:100%;
+    cursor:pointer;
+    
+}
+.btn2:hover{
+    box-shadow: 5px 10px 10px green;
+    background-color: blue;
+    border-radius:100%;
+    cursor:pointer;
+    
+}
+.btn3:hover{
+    box-shadow: 5px 10px 10px orangered;
+    background-color: burlywood;
     border-radius:100%;
     cursor:pointer;
     
