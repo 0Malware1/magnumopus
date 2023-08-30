@@ -1,0 +1,13 @@
+body{
+    background-image: url(images/hell.jpg);
+    background-size: cover;
+}
+.vid{
+    display: flex;
+    justify-content: center;
+    padding-top: 200px;
+}
+video{
+    width:1000px;
+    height:500px;
+}
